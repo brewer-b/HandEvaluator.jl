@@ -1,0 +1,16 @@
+name = "HandEvaluator"
+uuid = "73eb257a-b5c5-4bc3-987a-0e6e019ea9a8"
+authors = ["= <=> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
